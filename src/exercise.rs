@@ -31,6 +31,7 @@ fn temp_file() -> String {
 pub enum Mode {
     // Indicates that the exercise should be compiled as a binary
     Compile,
+    
     // Indicates that the exercise should be compiled as a test harness
     Test,
     // Indicates that the exercise should be linted with clippy
